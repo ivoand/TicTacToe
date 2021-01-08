@@ -1,0 +1,27 @@
+.board {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+    grid-gap: 10px;
+    padding: 15px;
+    background: #999999;
+    width: 320px;
+    margin: auto;
+  }
+  
+  .nr2 {
+    margin-top: 20px;
+  }
+  
+  .cell {
+    background: rgb(123, 123, 252);
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  .cell span {
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-top: 20px;
+  }
